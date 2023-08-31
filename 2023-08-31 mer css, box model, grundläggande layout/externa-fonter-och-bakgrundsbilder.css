@@ -1,0 +1,25 @@
+.Sofia {
+  font-family: "Sofia", sans-serif;
+}
+.large {
+  font-size: large;
+}
+.small {
+  font-size: small;
+}
+.xx-small {
+  font-size: xx-small;
+}
+.xx-large {
+  font-size: xx-large;
+}
+body {
+  background-image: url("https://www.jenseneducation.se/themes/jensen/css/graphics/logo-gold-jensen-education.svg");
+  background-repeat: no-repeat; /* default är att bilden återupprepas, no-repeat stoppar detta */
+
+  /* alternativ länk-exempel med bild på den egna datorn */
+  background-image: url("logo-gold-jensen-education.svg");
+
+  /* Om man vill att bakgrundsbilden ska täcka hela skärmen */
+  /* background-size: cover; */
+}

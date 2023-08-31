@@ -1,0 +1,30 @@
+p {
+  /* stilsätter alla paragrafer, specificitet=1 */
+  color: blue;
+}
+.my-class {
+  /* stilsätter alla element av class=my-class, specificitet 10 */
+  color: red;
+}
+#my-id {
+  /* stilsätter elementet med id=my-id, specificitet 100 */
+  color: green;
+}
+p.my-other-class {
+  /* stilsätter alla paragrafer av class=my-other-class, specificitet 1+10=11 */
+  color: yellow;
+}
+.my-other-class {
+  /* stilsätter alla element av class=my-other-class, specificitet=10 */
+  /* OBS: samma id förekommer även ovan, den sist specificerade gäller */
+  color: purple;
+}
+p .my-class {
+  /* stilsätter alla element med class=my-class som ligger inuti en paragraf */
+  color: pink;
+}
+h1,
+h2 {
+  /* stilsätt både h1 och h2 i ett och samma block */
+  color: yellowgreen;
+}

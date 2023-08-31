@@ -1,0 +1,9 @@
+.red-paragraph {
+  /* punkt följt av namn på klassen */
+  color: red;
+}
+
+#green-paragraph {
+  /* brädgård följt av namn på id */
+  color: green;
+}

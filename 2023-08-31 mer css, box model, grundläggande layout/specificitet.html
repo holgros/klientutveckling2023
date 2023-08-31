@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificitet</title>
+    <link rel="stylesheet" href="specificitet.css" />
+  </head>
+  <body>
+    <!-- element som har både klass och id -->
+    <p class="my-class" id="my-id">Hur ser denna ut?</p>
+    <!-- element som tillhör två olika klasser, den sist specificerade gäller -->
+    <p class="my-class my-other-class">Hur ser denna ut?</p>
+    <p>
+      Lite text som formateras med typselektorn för p.
+      <span class="my-class"
+        >Span-element som ligger inuti (nästlat) en paragraf.
+      </span>
+    </p>
+    <h1>Rubrik på nivå 1</h1>
+    <p>Lite text...</p>
+    <h2>Rubrik på nivå 2</h2>
+    <p>Lite text...</p>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.div1 {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+}
+.div2 {
+  background-color: pink;
+  width: 50%;
+  height: 50vh;
+  overflow: auto;
+}

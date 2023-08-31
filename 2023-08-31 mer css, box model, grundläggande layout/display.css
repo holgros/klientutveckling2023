@@ -1,0 +1,27 @@
+.div1 {
+  background-color: red;
+  width: 300px;
+  height: 200px;
+}
+.div2 {
+  background-color: blue;
+  width: 500px;
+  height: 300px;
+}
+.span1 {
+  background-color: pink;
+}
+.span2 {
+  background-color: green;
+}
+.div3 {
+  width: 200px;
+  height: 200px;
+  background-image: url("logo-gold-jensen-education.svg");
+}
+.none {
+  display: none;
+}
+.hidden {
+  visibility: hidden;
+}

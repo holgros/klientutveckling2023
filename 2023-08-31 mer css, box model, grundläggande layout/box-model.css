@@ -1,0 +1,22 @@
+div {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+.div1 {
+  background-color: red;
+  margin-left: 30px;
+  padding: 30px;
+  border: 5px solid black;
+}
+.div2 {
+  background-color: green;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  border: 10px dotted pink;
+}
+.div3 {
+  background-color: blue;
+  padding-top: 30px;
+  border: 5px dashed yellow;
+}

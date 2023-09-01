@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kort sammanfattning av första veckan</title>
+    <!-- två link-element med länkar till extern CSS och till extern font -->
+    <link rel="stylesheet" href="exempel.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <!-- style-element med intern CSS -->
+    <style>
+      /*
+        CSS-kod mellan style-taggar, s.k. intern CSS. 
+        */
+      .my-class {
+        color: red;
+        font-size: 24px;
+      }
+      #my-id {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    Lite innehåll...
+    <h1>En rubrik av första nivån</h1>
+    <!-- CSS-kod i ett style-attribut, s.k. inline-CSS -->
+    <p style="color: pink">En paragraf.</p>
+    <p>En till paragraf.</p>
+    <h2 class="my-class">En rubrik av andra nivån</h2>
+    <p id="my-id" class="my-class">
+      Attribut definieras i starttaggen. Vanliga attribut är id och class. Denna
+      paragraf har t.ex. attributen class=my-class och id=my-id (och får därför
+      blå färg, enligt CSS-koden, eftersom id har högre specificitet än class).
+      Även länkadresser är attribut, t.ex.:
+      <a href="https://www.jenseneducation.se/">Länk till Jensen</a>. Det är
+      skillnad mellan link-element och a-element; link är ett element som man
+      använder i head-delen av HTML-dokumentet för att länka till CSS-fil,
+      externa fonter eller liknande, medan a-element är en "hyperlänk" som syns
+      på webbsidan.
+    </p>
+    <p>
+      Bilder läggs in med img-element och bryter inte rad.
+      <img src="logo-gold-jensen-education.svg" alt="Jensens logga" />
+      Texten fortsätter på samma rad som bilden. Vill man ha bilden på en
+      separat rad så kan man t.ex. låta den ligga mellan två paragrafer.
+    </p>
+    <img src="logo-gold-jensen-education.svg" alt="Jensens logga" />
+    <p>Texten fortsätter här i en ny paragraf.</p>
+    <div id="div1">
+      Text inuti en div. Marginalerna är margin-top: 5px, margin-left: 10px och
+      margin-bottom: 15px. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Voluptates eius vitae, natus, nemo odio facilis sit quaerat neque
+      alias ipsum quos id laboriosam odit, explicabo beatae perspiciatis saepe
+      error! Culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Consequatur libero ab molestias perferendis nulla fugiat consequuntur
+      animi rerum saepe quia esse mollitia veniam, soluta odit ipsum ad magni
+      explicabo earum!
+    </div>
+    <div id="div2">
+      Text inuti en div. Padding (dvs. avstånd inuti boxen till texten) är
+      padding-top: 5px, padding-left: 10px, padding-bottom: 15px och
+      padding-right: 20px. Border radius är 25px. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Ullam animi excepturi architecto?
+      Consequatur quo quae magni eligendi deleniti, vero repellat possimus illo
+      doloremque voluptatem velit voluptatibus quaerat? Cum, reprehenderit.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci at,
+      repudiandae ullam reprehenderit non, voluptate laudantium veritatis ipsum
+      repellat debitis ipsam quisquam blanditiis fuga quae animi possimus
+      maiores saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Consectetur, corporis. Laboriosam sed, placeat voluptate id doloremque
+      iure aspernatur, unde voluptas molestias doloribus quisquam excepturi
+      nihil suscipit cum cumque. Praesentium, voluptate!
+    </div>
+  </body>
+</html>

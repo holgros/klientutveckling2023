@@ -1,0 +1,29 @@
+div {
+  border: 1px solid;
+}
+.relative {
+  position: relative;
+  left: 25%;
+  top: 50px;
+  width: 50%;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
+.outer {
+  margin: 100px;
+  height: 50vh;
+}
+.absolute {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+.sticky {
+  position: sticky;
+  background-color: lime;
+  top: 0;
+}

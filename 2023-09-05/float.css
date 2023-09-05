@@ -1,0 +1,9 @@
+img {
+  float: right;
+  border-radius: 50%;
+}
+div {
+  border: 1px solid;
+  width: 33%;
+  float: right;
+}

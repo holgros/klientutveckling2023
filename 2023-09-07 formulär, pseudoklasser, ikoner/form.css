@@ -1,0 +1,7 @@
+input {
+  display: block;
+}
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulär</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form>
+      <label for="">Ange namn:</label
+      ><input type="text" required maxlength="20" />
+      <label for="">Detta input-fält är avstängt:</label
+      ><input type="text" disabled />
+      <label for="">Ange om du vill ha vegetarisk mat:</label
+      ><input type="radio" />
+      <label for="">Ange om du har några allergier:</label
+      ><input type="checkbox" />
+      <label for="maträtt">Välj en maträtt:</label>
+      <select id="maträtt" name="maträtt">
+        <option value="pasta">Pasta</option>
+        <option value="ris">Ris</option>
+        <option value="couscous">Couscous</option>
+      </select>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

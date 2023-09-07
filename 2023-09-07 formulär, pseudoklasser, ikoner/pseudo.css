@@ -1,0 +1,34 @@
+.bytafarg:hover {
+  /* regel som tillämpas på element av klassen "bytafarg" när användaren hovrar med muspekaren över elementet */
+  color: red;
+}
+
+li:first-child {
+  /* regel som tillämpas på element av typen li är först bland sina "syskon" */
+  color: pink;
+}
+
+li:nth-child(even) {
+  /* regel som tillämpas på varannat element av typen li */
+  color: yellow;
+}
+
+li:nth-child(2) {
+  /* regel som tillämpas enbart på det andra "syskonet" av typen li */
+  color: green;
+}
+
+.forstaraden::first-line {
+  /* regel som tillämpas på första raden i element av klassen "forstaraden" */
+  font-weight: bold;
+}
+
+p::first-letter {
+  /* regel som tillämpas på första bokstaven i varje paragraf */
+  font-size: xx-large;
+}
+
+li::before {
+  /* lägger in en emoji innan varje list item */
+  content: "😎";
+}

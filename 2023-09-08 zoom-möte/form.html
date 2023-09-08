@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mer om formulär</title>
+    <style>
+      label.block {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label class="block"
+        >En uppsättning "radioknappar" där man endast kan välja ett alternativ
+        utifrån en begränsad uppsättning:</label
+      >
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+      <label class="block">En till uppsättning med radioknappar:</label>
+      <input type="radio" id="falafel" name="fav_food" value="Falafel" />
+      <label for="falafel">Falafel</label><br />
+      <input type="radio" id="kebab" name="fav_food" value="Kebab" />
+      <label for="kebab">Kebab</label><br />
+      <label for="food" class="block">Välj din favoritmat:</label>
+      <select id="food" name="food">
+        <option value="pizza">Pizza</option>
+        <option value="pommes">Pommes Frites</option>
+        <option value="gronsaker">Grönsaker</option>
+        <option value="osv">Osv</option>
+      </select>
+      <label for="message" class="block"
+        >Detta är en textarea som har storlek 15*40 (rader*kolumner):</label
+      >
+      <textarea name="message" rows="15" cols="40">Skriv något här.</textarea>
+    </form>
+  </body>
+</html>

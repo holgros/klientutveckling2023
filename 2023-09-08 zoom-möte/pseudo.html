@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudoklasser och -element</title>
+  </head>
+  <style>
+    /* unvisited link */
+    a:link {
+      color: red;
+    }
+
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+    #mydiv {
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+    }
+    #mydiv:hover {
+      background-color: green;
+    }
+    #myparagraph::first-line {
+      font-size: xx-large;
+    }
+  </style>
+  <body>
+    <p>
+      Detta är en länk som är röd från början, rosa om man för muspekaren över
+      den, grön om man har besökt länken, blå om den är "aktiv" (dvs. när håller
+      nere musknappen över den):
+    </p>
+    <a href="https://www.w3schools.com/css/css_pseudo_classes.asp"
+      >Om pseudoklasser</a
+    >
+    <div id="mydiv">
+      Denna div blir grön om man hovrar över den, annars är den gul.
+    </div>
+    <p id="myparagraph">
+      Första raden blir större än övriga rader i denna paragraf. Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Iure excepturi iste aut, quo
+      laborum libero velit. Magni nostrum, quae ut, perspiciatis impedit
+      nesciunt, pariatur ipsam animi eveniet obcaecati repellendus saepe? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Quae labore, saepe eos
+      maxime suscipit ex mollitia dicta in nemo voluptate illo facilis cum id,
+      praesentium possimus tempora eum nesciunt quibusdam. Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Voluptates, quas atque. Id aspernatur
+      culpa molestiae omnis minima accusamus excepturi vitae exercitationem
+      voluptas fugit? Molestiae quae eos laborum ipsa ad similique. Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Doloribus modi nesciunt iure?
+      Commodi, deserunt dolorem quidem sint quaerat, repellat asperiores optio
+      voluptate sapiente officiis ipsum, veritatis vero quis enim delectus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia
+      odit quisquam aut beatae deserunt natus labore vero sequi, distinctio
+      tempore quia aliquid, obcaecati architecto quibusdam perferendis.
+      Dignissimos, animi ipsam! Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Tempore debitis assumenda optio aut. Accusamus, ad unde.
+      Asperiores accusantium non maiores perferendis quo, nesciunt repudiandae
+      dolorem reiciendis deleniti expedita nihil aperiam. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Asperiores suscipit tempora rem eaque
+      pariatur, necessitatibus sit dignissimos est, earum maxime voluptatem
+      molestias error aliquid labore hic sapiente magnam ab mollitia?
+    </p>
+  </body>
+</html>

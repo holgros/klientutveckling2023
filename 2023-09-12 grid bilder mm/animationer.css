@@ -1,0 +1,47 @@
+.transform:hover {
+  transform: translateX(200px);
+}
+.transform {
+  transition: transform 5s;
+}
+.expand {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 4s, height 4s, font-size 4s;
+}
+.expand:hover {
+  width: 300px;
+  height: 300px;
+  font-size: 48px;
+}
+.color-transition {
+  background-color: blueviolet;
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes my-animation {
+  from {
+    background-color: blueviolet;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+.moving {
+  width: 250px;
+  background-color: grey;
+  animation-name: my-movement;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes my-movement {
+  10% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(400px);
+  }
+}

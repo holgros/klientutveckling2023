@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 99vh;
+  margin-top: -10px;
+}
+
+.odd {
+  background-color: red;
+}
+
+.even {
+  background-color: green;
+}

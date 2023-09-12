@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilder</title>
+    <link rel="stylesheet" href="bilder.css" />
+  </head>
+  <body>
+    <p>Olika rasterbildformat:</p>
+    <img src="bild.jpg" alt="Bild på Holger (.jpg)" />
+    <img src="bild.png" alt="Bild på Holger (.png)" />
+    <img src="bild.gif" alt="Bild på Holger (.gif)" />
+    <p>Ett exempel på vektorgrafik:</p>
+    <!-- 
+        SVG-elementet har en bredd på 200px och en höjd på 100px
+        Inuti finns en cirkel med centrum i koordinaterna x,y=50,50 och en annan cirkel med centrum i koordinaterna x,y=150,50
+    -->
+    <svg width="200" height="100">
+      <circle cx="50" cy="50" r="40" stroke-width="4" fill="#ccc" />
+      <circle
+        class="orange-kant"
+        cx="150"
+        cy="50"
+        r="40"
+        stroke-width="4"
+        fill="#ccc"
+      />
+    </svg>
+    <p>
+      Att konvertera från bitmap till vektor är inte okomplicerat och kräver
+      relativt avancerad programvara:
+    </p>
+    <img src="bild.svg" alt="Bild på Holger (.svg)" />
+    <p>Extern svg-fil:</p>
+    <img src="circle.svg" alt="En cirkel (.svg)" />
+  </body>
+</html>

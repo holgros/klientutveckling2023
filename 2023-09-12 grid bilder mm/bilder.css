@@ -1,0 +1,13 @@
+/* SVG-element kan stilsättas som vilket HTML-element som helst */
+circle {
+  fill-opacity: 0.5;
+  stroke: aqua;
+}
+/* pseudoklass */
+circle:hover {
+  fill: red;
+}
+/* SVG-element kan tilldelas klasser och stilsättas därefter */
+.orange-kant {
+  stroke: orange;
+}

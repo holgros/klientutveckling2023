@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  border: 1px solid red;
+  width: 75%;
+}
+
+.flex-item {
+  border: 1px dashed black;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.row {
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.align-end {
+  align-self: flex-end;
+}

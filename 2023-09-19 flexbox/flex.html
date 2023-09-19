@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+  <body>
+    <p>Alla flex-containers nedan har bredd=75%.</p>
+    <p>
+      Denna flexbox har default-riktning, som är row vänster till höger; den har
+      justify-content space-around, vilket innebär att alla items är jämnt
+      utspridda med marginaler mellan sig; alla items är alignerade i mitten
+      (center) utom nummer 5 som är i botten (flex-end):
+    </p>
+    <div class="flex-container row">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item align-end">5</div>
+      <div class="flex-item">6</div>
+    </div>
+    <p>Denna flexbox har riktning row-reverse, dvs. höger till vänster:</p>
+    <div class="flex-container row-reverse">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item">5</div>
+      <div class="flex-item">6</div>
+    </div>
+    <p>
+      Denna flexbox har riktning column, dvs. uppifrån och ner; den har
+      justify-content space-evenly, dvs. alla items är jämnt utspridda i
+      kolumnriktningen; nummer 5 är här alignerad åt höger:
+    </p>
+    <div class="flex-container column">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item align-end">5</div>
+      <div class="flex-item">6</div>
+    </div>
+    <p>Denna flexbox har riktning column-reverse, dvs. nerifrån och uppåt:</p>
+    <div class="flex-container column-reverse">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item">5</div>
+      <div class="flex-item">6</div>
+    </div>
+  </body>
+</html>

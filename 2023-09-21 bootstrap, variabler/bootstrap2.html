@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mer Bootstrap</title>
+    <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstraps egen JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Basic Table</h2>
+      <p>
+        The .table class adds basic styling (light padding and horizontal
+        dividers) to a table:
+      </p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <h2>Responsiv tabell</h2>
+      <p>
+        Med hjälp av .table-responsive-klassen kan man skrolla horisontellt i
+        tabellen utan att skymma övrig text på sidan:
+      </p>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Förnamn</th>
+              <th>Efternamn</th>
+              <th>Ålder</th>
+              <th>Hemstad</th>
+              <th>Land</th>
+              <th>Email</th>
+              <th>Postnummer</th>
+              <th>Utbildning</th>
+              <th>Inkomst</th>
+              <th>Barn1</th>
+              <th>Barn2</th>
+              <th>Barn3</th>
+              <th>Favoriträtt</th>
+              <th>Civilstånd</th>
+              <th>Yrke</th>
+              <th>Språk1</th>
+              <th>Språk2</th>
+              <th>Annat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Kalle</td>
+              <td>Anka</td>
+              <td>25</td>
+              <td>Ankeborg</td>
+              <td>USA</td>
+              <td>kalle@anka.com</td>
+              <td>12345</td>
+              <td>PhD</td>
+              <td>12.34</td>
+              <td>Knatte</td>
+              <td>Fnatte</td>
+              <td>Tjatte</td>
+              <td>Falafel</td>
+              <td>Ogift</td>
+              <td>Webbutvecklare</td>
+              <td>Svenska</td>
+              <td>Engelska</td>
+              <td>Osv.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

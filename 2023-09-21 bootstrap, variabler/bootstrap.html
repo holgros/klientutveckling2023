@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstraps egen JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      Denna div tillhör Bootstrap-klassen "container". Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Consectetur illum tenetur praesentium
+      delectus dolores consequatur quam facere, blanditiis optio! Facilis
+      voluptatem quidem temporibus minima nostrum provident quam deserunt
+      eligendi natus?
+    </div>
+    <div class="container-fluid">
+      Denna div tillhör Bootstrap-klassen "container-fluid. Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Unde sapiente quos distinctio animi
+      nam maiores doloremque debitis minima magnam, eaque sequi ducimus aut iste
+      deserunt, expedita accusamus, aliquid possimus voluptates!
+    </div>
+    <div class="container-md">
+      Denna div tillhör Bootstrap-klassen "container-md. Den är 100% bred för
+      skärmar upp till 768px. Den är 720px, 960px och 1140px bred för lite
+      större skärmar.
+    </div>
+    <div class="container p-3 m-1">
+      Denna div/container tillhör Bootstrap-klassen "p-3", vilket ger den lite
+      padding. Den tillhör också klassen "m-1", vilket ger den lite marginal.
+      Det finns klasser för padding och marginal enligt mönstret p-X eller m-X
+      där X är ett tal mellan 1 och 5 som betecknar hur stor padding/marginal
+      man vill ha.
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        Denna div tar upp halva sidbredden för skärmar som är större än medium
+        (768px) och hela sidbredden annars.
+      </div>
+      <div class="col-md-6">
+        Samma här. Denna div läggs under den föregående vid små skärmstorlekar.
+      </div>
+    </div>
+    <div class="row">
+      <!-- col-3 är samma som col-xs-3; om vi inte skriver någon responsivitetsnivå så är det automatiskt xs. -->
+      <div class="col-3">
+        Denna div tar upp en en fjärdedel (tre tolftedelar) av sidan, utom för
+        de allra minsta skärmarna.
+      </div>
+      <div class="col-3"></div>
+      <div class="col-3"></div>
+      <div class="col-3 row">
+        <div class="col-6">
+          Man kan "nästla" div-element, så att en div blir en ny rad med egna
+          kolumn-element.
+        </div>
+        <div class="col-6"></div>
+      </div>
+    </div>
+    <div class="ml-md-3">
+      Denna div tillhör klassen "ml-md-3", dvs. den har marginal åt vänster (ml)
+      för skärmar större än medelstora (md) och denna marginal är av storleken 3
+      i Bootstraps enheter.
+    </div>
+    <div class="mx-sm-5">
+      Denna div tillhör klassen "mx-sm-5", dvs. den har marginal i horisontellt
+      led (mx, höger-vänster) för skärmar som är större än (sm) och denna
+      marginal är 5 av Bootstraps enheter.
+    </div>
+  </body>
+</html>

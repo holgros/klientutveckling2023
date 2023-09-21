@@ -1,0 +1,15 @@
+:root {
+  --my-color: cornflowerblue;
+}
+
+header {
+  background-color: var(--my-color);
+}
+
+p {
+  color: var(--my-color);
+}
+
+div {
+  --my-color: red;
+}

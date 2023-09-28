@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <script>
+      console.log("Hejsan internt JavaScript!");
+      x = 1 + 2;
+      console.log("1+2=" + x);
+    </script>
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <p>En paragraf</p>
+    <p
+      onclick="console.log('Händelsehanterare som aktiveras vid klick!');x=1+2;console.log('1+2='+x);"
+    >
+      Klicka på mig!
+    </p>
+    <p id="min-paragraf">
+      Här är en till paragraf som görs röd i externt JavaScript.
+    </p>
+    <p id="klickbar-paragraf">Klicka på mig så aktiveras externt JavaScript!</p>
+  </body>
+</html>
